@@ -37,11 +37,10 @@ def find (name,agent):
 
             attempt = attempt + 1
             
-            
-
         elif name not in nameList:
             print("\nUh oh! This is not an agent name. Try again!")
             name = input("Guess the Agent!\n").lower().capitalize()
+
 randInt = random.randrange(0,len(nameList))
 
 find(user,nameList[randInt])
