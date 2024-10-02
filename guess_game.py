@@ -1,5 +1,6 @@
 import random
 import streamlit as st
+import pandas as pd
 
 st.title('Valorant Agent Guess Game')
 data = pd.read_csv("champs.csv")
