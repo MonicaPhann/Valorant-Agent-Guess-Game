@@ -1,4 +1,9 @@
 import random
+import streamlit as st
+
+st.title('Valorant Agent Guess Game')
+data = pd.read_csv("champs.csv")
+st.write(data)
 fileOpen = open("champs.csv", "r")
 #read = fileOpen.readline().strip().split(",")
 nameList = []
